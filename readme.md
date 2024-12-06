@@ -13,6 +13,7 @@ This is a tiny Windows console program utility that puts multiple text files ont
 * The pre/post text between each file added can be edited in the config.txt. (Notice that it replaces <FILEPATH>, <FILENAME> and <CR> dynamically)
 * Should work right with utf8 and utf16 files too
 * Open source
+
 <BR>
 
 ![Screenshot of it](media/screenshot.png)
@@ -43,13 +44,21 @@ That's it! Now you can select files in explorer, then do Sendto->RTBulkPaste.  N
 
 rtbulkpaste.exe file1.txt file2.md (etc)
 
+# Thoughts #
+
+I made this because I want ChatGPT's o1 mode to help me with programming, but it doesn't allow code attachements, only images.  This is a way around that until they properly allow attachements.
+
 I looked into making this work directly from VS Code's file stuff, but it looked like I'd have to write an actual plugin, so uh, if someone does that, let me know.
+
+It may also be of help when attachements are limited (only 6 on Claude?!) despite large enough contexts.  It could use this method to include an entire folder tree if needed.
 
 Note, I did add an artifical one second delay so it's easier to see what it's doing.
 
 If you aren't reading this on github, well, the C# source is on github, try https://github.com/SethRobinson
 
-This utility was (mostly) written by ChatGTP December 6th, 2024
+This utility was (mostly) written by ChatGTP
+
+Dec 6th, 2024 - V1.00 Released
 
 Seth A. Robinson
 rtsoft.com
