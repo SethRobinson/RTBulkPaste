@@ -1,8 +1,5 @@
 This is a tiny Windows console program utility that puts multiple text files onto your clipboard, ready to be pasted into ChatGPT.
 
-#let's add a picture here
-
-
 # FEATURES #
 
 * Converts any number of text files into a single giant text on your clipboard
