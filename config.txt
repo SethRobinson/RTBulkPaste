@@ -1,0 +1,3 @@
+prepaste_message|(This is the contents of the file <FILEPATH>\<FILENAME>)<CR>
+postpaste_message|<CR><CR>(END OF <FILEPATH>\<FILENAME>)<CR>
+ignore_patterns|*.obj obj .git *.exe *.dll *.pdb *.zip .vs
